@@ -84,27 +84,7 @@
         "y": 160,
         "wires": [
             [
-                "af91d557e7e62181",
                 "9c938c7f292d0423"
-            ]
-        ]
-    },
-    {
-        "id": "af91d557e7e62181",
-        "type": "counter",
-        "z": "5ac0628603fc469a",
-        "name": "",
-        "init": "0",
-        "step": "1",
-        "lower": null,
-        "upper": null,
-        "mode": "increment",
-        "outputs": "1",
-        "x": 560,
-        "y": 80,
-        "wires": [
-            [
-                "73e5d88e72f2cde4"
             ]
         ]
     },
@@ -235,6 +215,25 @@
             "unavailable"
         ],
         "info": "Just expand the flow.count to how ever many\npresses you want/need."
+    },
+    {
+        "id": "af91d557e7e62181",
+        "type": "counter",
+        "z": "5ac0628603fc469a",
+        "name": "",
+        "init": "0",
+        "step": "1",
+        "lower": null,
+        "upper": null,
+        "mode": "increment",
+        "outputs": "1",
+        "x": 560,
+        "y": 80,
+        "wires": [
+            [
+                "73e5d88e72f2cde4"
+            ]
+        ]
     },
     {
         "id": "63153810c50ac187",
