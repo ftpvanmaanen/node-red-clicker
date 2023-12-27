@@ -12,7 +12,7 @@
         "type": "subflow",
         "name": "clicker 1-2-3-4",
         "info": "",
-        "category": "",
+        "category": "function",
         "in": [
             {
                 "x": 50,
@@ -26,7 +26,7 @@
         ],
         "out": [
             {
-                "x": 900,
+                "x": 930,
                 "y": 40,
                 "wires": [
                     {
@@ -36,7 +36,7 @@
                 ]
             },
             {
-                "x": 955,
+                "x": 995,
                 "y": 40,
                 "wires": [
                     {
@@ -46,7 +46,7 @@
                 ]
             },
             {
-                "x": 1010,
+                "x": 1050,
                 "y": 40,
                 "wires": [
                     {
@@ -56,7 +56,7 @@
                 ]
             },
             {
-                "x": 1065,
+                "x": 1105,
                 "y": 40,
                 "wires": [
                     {
@@ -72,9 +72,20 @@
             "version": "0.0.1",
             "author": "ftpvanmaanen@gmail.com",
             "desc": "1..4 clicks",
-            "keywords": "node-red, click detect, 1-2-3-4"
+            "keywords": "node-red, click detect, 1-2-3-4",
+            "license": "Apache-2.0"
         },
-        "color": "#DDAA99"
+        "color": "#ff66aa",
+        "inputLabels": [
+            "esphome relais"
+        ],
+        "outputLabels": [
+            "1 click",
+            "2 clicks",
+            "3 clicks",
+            "4 clicks"
+        ],
+        "icon": "font-awesome/fa-hand-o-down"
     },
     {
         "id": "9fc8709bfaaacb42",
