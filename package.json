@@ -1,6 +1,6 @@
 {
-    "name": "clicker",
-    "description": "clicker fedora",
+    "name": "node-red-clicker",
+    "description": "A Node-RED Project",
     "version": "0.0.1",
     "dependencies": {},
     "node-red": {

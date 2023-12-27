@@ -1,7 +1,5 @@
-clicker
-=======
-
-clicker fedora
+node-red-clicker
+================
 
 ### About
 
