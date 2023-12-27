@@ -178,8 +178,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 4,
-        "x": 590,
-        "y": 180,
+        "x": 600,
+        "y": 160,
         "wires": [
             [],
             [],
